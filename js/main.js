@@ -105,11 +105,10 @@ const title = document.createElement('h1')
   title.textContent = 'Users list'
   const container = document.createElement('div')
   container.className = 'container py-5'
-body.append(title, container)
-for(let i = 0; i <= data.length; i++) {
   const ul = document.createElement('ul')
   ul.className = 'row g-2 p-0 '
-
+body.append(title, container)
+for(let i = 0; i <= data.length; i++) {
   const li = document.createElement('li')
   li.className = 'user card d-inline-block col-12 col-lg-4 col-md-6 col-xl-3 px-2'
 
