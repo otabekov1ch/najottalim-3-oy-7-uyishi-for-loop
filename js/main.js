@@ -108,7 +108,7 @@ const title = document.createElement('h1')
   const ul = document.createElement('ul')
   ul.className = 'row g-2 p-0 '
 body.append(title, container)
-for(let i = 0; i <= data.length; i++) {
+for(let i = 0; i <= data.length - 1; i++) {
   const li = document.createElement('li')
   li.className = 'user card d-inline-block col-12 col-lg-4 col-md-6 col-xl-3 px-2'
 
